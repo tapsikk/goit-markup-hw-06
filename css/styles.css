@@ -418,9 +418,6 @@ input {
   overflow: hidden;
 }
 
-.portfolio-block {
-}
-
 .portfolio-block-text {
   position: absolute;
   margin: 0;
@@ -511,9 +508,6 @@ input {
   word-wrap: break-word;
   color: var(--color-footer-tx);
   max-width: 264px;
-}
-
-.footer-social {
 }
 
 .social-media-p {
@@ -703,9 +697,6 @@ input {
   margin-bottom: 16px;
 }
 
-.modal-form {
-}
-
 .modal-label {
   color: #8e8f99;
   font-size: 12px;
@@ -829,6 +820,7 @@ input {
   color: #4d5ae5;
   line-height: 1.33;
   text-decoration-line: underline;
+  
 }
 
 .btn-form {
