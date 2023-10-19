@@ -62,8 +62,11 @@ input {
 }
 
 .container {
-  max-width: 1158px;
-  padding: 0 15px;
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+  /* max-width: 1158px;
+  padding: 0 15px;*/
   margin: 0 auto;
 }
 
@@ -234,7 +237,8 @@ input {
 /*? ---section 2--- */
 
 .description {
-  padding: 120px 0;
+  padding: 96px 0;
+  /* padding: 120px 0; */
 }
 
 .visually-hidden {
@@ -254,7 +258,7 @@ input {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 72px;
 }
 
 .description-icon {
@@ -276,8 +280,8 @@ input {
 }
 
 .description-item {
-  max-width: 264px;
-  width: calc((100% - 72px) / 4);
+  width: 100%;
+  /* width: calc((100% - 72px) / 4); */
 }
 
 .description-subtitle {
@@ -288,6 +292,7 @@ input {
 .description-text {
   color: #434455;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   word-wrap: break-word;
@@ -851,4 +856,10 @@ input {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+}
+
+@media screen and (min-width: 320px){
+  .container{
+    
+  }
 }
