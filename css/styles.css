@@ -869,6 +869,13 @@ input {
   .description-icon{
     display: none;
   }
+  .our-team-list{
+    gap: 72px;
+    margin: 0 12px;
+  }
+  .our-team-item{
+    padding: auto 28px;
+  }
 }
 
     /*? ---media table--- */
@@ -884,6 +891,10 @@ input {
   .description-item {
     width: 100%;
     width: calc((100% - 72px) / 2); 
+}
+.our-team-list{
+  
+  
 }
 }
 
