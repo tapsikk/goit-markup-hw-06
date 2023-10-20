@@ -62,11 +62,8 @@ input {
 }
 
 .container {
-    max-width: 320px;
-    padding-left: 16px;
-    padding-right: 16px;
-  /* max-width: 1158px;
-  padding: 0 15px;*/
+  max-width: 1158px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -237,8 +234,7 @@ input {
 /*? ---section 2--- */
 
 .description {
-  padding: 96px 0;
-  /* padding: 120px 0; */
+  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -280,8 +276,8 @@ input {
 }
 
 .description-item {
-  width: 100%;
-  /* width: calc((100% - 72px) / 4); */
+    /* width: 100%;
+    width: calc((100% - 72px) / 4);  */
 }
 
 .description-subtitle {
@@ -296,7 +292,7 @@ input {
   line-height: 1.5;
   letter-spacing: 0.02em;
   word-wrap: break-word;
-  max-width: 264px;
+  max-width: 100%;
 }
 
 /*? --- Section 3 - "Our Team" --- */
@@ -858,8 +854,58 @@ input {
   pointer-events: auto;
 }
 
-@media screen and (min-width: 320px){
+    /*? ---media mobile--- */
+
+@media screen and (max-width: 1158px){
   .container{
-    
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
   }
+  .description {
+    padding: 96px 0;
+  }
+  .description-icon{
+    display: none;
+  }
+}
+
+    /*? ---media table--- */
+
+@media screen and (min-width: 768px) and (max-width:1158px ){
+  .container {
+    max-width: 768px;
+}
+  .description{
+    width: 100%;
+    padding: 96px 0;
+  }
+  .description-item {
+    width: 100%;
+    width: calc((100% - 72px) / 2); 
+}
+}
+
+
+    /*? ---media desctop--- */
+@media screen and (min-width: 1159px){
+  .container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.description-item {
+  width: 100%;
+  width: calc((100% - 72px) / 4); 
+}
+.description-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.description-text {
+  font-weight: 400;
+}
 }
