@@ -859,13 +859,9 @@ input {
     padding-right: 16px;
     margin: 0 auto;
   }
-  .header-container {
-  }
   .header {
     padding: 17.5px 1px;
     width: auto;
-  }
-  .logo {
   }
   .nav-menu {
     display: none;
