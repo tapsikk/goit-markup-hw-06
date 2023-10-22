@@ -1012,6 +1012,12 @@ input {
     position: absolute;
     bottom: 40px;
   }
+  .backdrop-mobal{
+    display: none;
+  }
+  .backdrop{
+    display: none;
+  }
   .modal{
     width: 288px;
     height: 623px;
@@ -1109,6 +1115,9 @@ input {
     display: flex;
     flex-direction: row;
     gap: 24px;
+  }
+  .backdrop{
+    display: none;
   }
   .backdrop-mobal{
     display: none;
