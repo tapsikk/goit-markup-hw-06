@@ -254,7 +254,7 @@ input {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 72px;
+  gap: 24px;
 }
 
 .description-icon {
@@ -276,8 +276,8 @@ input {
 }
 
 .description-item {
-  /* width: 100%;
-    width: calc((100% - 72px) / 4);  */
+    width: 100%;
+    width: calc((100% - 72px) / 4);
 }
 
 .description-subtitle {
@@ -893,6 +893,7 @@ input {
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 72px;
   }
   .description-icon {
     display: none;
@@ -1081,6 +1082,7 @@ input {
     display: flex;
     align-items: center;
     flex-direction: row;
+    gap: 72px 24px; 
   }
   /*? our team */
   .our-team-list {
@@ -1134,20 +1136,13 @@ input {
   .wrapper-burger-btn {
     display: none;
   }
-  .description-item {
-    width: 100%;
-    width: calc((100% - 72px) / 4);
-  }
-  .description-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 24px;
-  }
   .description-text {
     font-weight: 400;
   }
   .backdrop-mobal{
+    display: none;
+  }
+  .backdrop{
     display: none;
   }
 }
