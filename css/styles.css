@@ -1055,7 +1055,6 @@ input {
   .wrapper-burger-btn {
     display: none;
   }
-
   .close {
     position: absolute;
     top: 10px;
@@ -1067,9 +1066,7 @@ input {
   width: 408px;
   height: 584px;
 }
-
   /*? секиция 2 */
-
   .description {
     width: 100%;
     padding: 96px 0;
@@ -1129,11 +1126,9 @@ input {
     padding: 0 15px;
     margin: 0 auto;
   }
-
   .wrapper-burger-btn {
     display: none;
   }
-
   .description-item {
     width: 100%;
     width: calc((100% - 72px) / 4);
