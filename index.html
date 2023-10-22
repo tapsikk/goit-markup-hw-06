@@ -53,6 +53,12 @@
             </li>
           </ul>
         </address>
+
+        <button class="wrapper-burger-btn" type="button" id="open-burger">
+          <svg class="icon-burger-menu" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -62,7 +68,7 @@
       <section class="hero-title">
         <div class="container title-container">
           <h1 class="title">Effective Solutions for Your Business</h1>
-          <button class="button" type="button">Order Service</button>
+          <button class="button" type="button" id="buttonx2">Order Service</button>
         </div>
       </section>
 
@@ -511,9 +517,9 @@
 
     <!--? --- FORM --- -->
 
-    <!-- <div class="backdrop ">
+    <div class="backdrop" id="modalx2">
       <div class="modal">
-        <button type="button" class="button-modal">
+        <button type="button" class="button-modal" id="buttonx2-close">
           <svg class="button-cancel" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -595,6 +601,68 @@
             <button class="btn-form" type="submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
+
+    <!--? --- FORM mobile --- -->
+
+    <div class="backdrop-mobal" id="modal">
+      <div class="modal-burger">
+        <button type="button" class="button-burger" id="button-burger-close">
+          <svg class="button-cancel" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="nav-burger">
+          <li>
+            <a class="burger-item blue-color" href="./index.html">Studio</a>
+          </li>
+          <li><a class="burger-item" href="">Portfolio</a></li>
+          <li><a class="burger-item" href="">Contacts</a></li>
+        </ul>
+        <ul class="address-list-burger">
+          <li>
+            <a class="address-link-burger blue-color" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li>
+            <a class="address-link-burger" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="footer-icon-soc-burger">
+          <li class="our-icon-item">
+            <a class="our-link-foother" href="">
+              <svg class="our-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="our-icon-item">
+            <a class="our-link-foother" href="">
+              <svg class="our-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="our-icon-item">
+            <a class="our-link-foother" href="">
+              <svg class="our-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="our-icon-item">
+            <a class="our-link-foother" href="">
+              <svg class="our-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="modal.js"></script>
   </body>
 </html>
